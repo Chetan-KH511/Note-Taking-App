@@ -6,6 +6,9 @@ plugins {
 
     //For safe args, not available in compose UI
     id("androidx.navigation.safeargs")
+
+    //To use PArcelize
+    id("kotlin-parcelize")
 }
 
 android {
