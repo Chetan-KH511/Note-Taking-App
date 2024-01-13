@@ -90,4 +90,6 @@ dependencies {
 
     // Annotation processor
     kapt("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
+
+    implementation("androidx.room:room-ktx:$room_version")
 }
