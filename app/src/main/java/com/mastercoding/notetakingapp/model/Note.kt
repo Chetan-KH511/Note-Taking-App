@@ -8,7 +8,7 @@ import kotlinx.parcelize.Parcelize
 @Entity(tableName = "notes")
 @Parcelize
 data class Note(
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true) // automatically increments
     val id : Int,
 
     val noteTitle : String,
